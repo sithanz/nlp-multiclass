@@ -145,8 +145,6 @@ me.plot_hist_graph(hist)
 
 print(model.evaluate(X_test, y_test))
 
-# loss: 0.29, acc: 0.91
-
 #%%
 
 # classification report
