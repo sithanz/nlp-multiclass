@@ -31,11 +31,11 @@ The following figures display how the model performs on testing:
 
 ### Classification report
 
-![Classification report](static/classification_report.png)
+![Classification report](static/classification_report_latest.png)
 
 ### Confusion matrix
 
-![Confusion matrix](static/confusion_matrix.png)
+![Confusion matrix](static/confusion_matrix_latest.png)
 
 From this, it can be concluded that the model is able to accurately classify the provided data into its appropriate categories and is ready for deployment.
 
