@@ -22,7 +22,7 @@ EarlyStopping and ModelCheckpoint callbacks have been included to prevent overfi
 We are then able to visualise the training and validation metrics using TensorBoard.
 ![TensorBoard](static/tensorboard.png)
 
-With validation loss of 0.34 and validation accuracy of 0.91, the model at Epoch 6 was determined to be the best performing model.
+With validation loss of 0.20 and validation accuracy of 0.94, the model at Epoch 5 was determined to be the best performing model.
 
 ## Model Evaluation
 
