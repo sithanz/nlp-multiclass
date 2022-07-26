@@ -139,8 +139,7 @@ hist = model.fit(X_train, y_train, validation_data=(X_test,y_test), epochs=10,
 # load previously saved model
 model = load_model(MODEL_PATH)
 
-# plot loss & accuracy training graphs
-
+# plot validation
 me = ModelEvaluation()
 me.plot_hist_graph(hist)
 
