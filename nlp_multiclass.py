@@ -31,9 +31,9 @@ from nlp_multiclass_module import ModelEvaluation
 #%% Constants
 LOGS_PATH = os.path.join(os.getcwd(),'logs', datetime.datetime.now().
                          strftime('%Y%m%d-%H%M%S'))
-MODEL_PATH = os.path.join(os.getcwd(),'model','model.h5')
-TOKENIZER_PATH = os.path.join(os.getcwd(),'model','tokenizer.json')
-OHE_PATH = os.path.join(os.getcwd(),'model','ohe.pkl')
+MODEL_PATH = os.path.join(os.getcwd(),'saved_models','model.h5')
+TOKENIZER_PATH = os.path.join(os.getcwd(),'saved_models','tokenizer.json')
+OHE_PATH = os.path.join(os.getcwd(),'saved_models','ohe.pkl')
 
 #%% Data Loading
 df = pd.read_csv('https://raw.githubusercontent.com/susanli2016/PyCon-Canada-2019-NLP-Tutorial/master/bbc-text.csv')
