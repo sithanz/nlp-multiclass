@@ -20,7 +20,8 @@ The following figure shows the default model architecture used in the script.
 EarlyStopping and ModelCheckpoint callbacks have been included to prevent overfitting of the model. Validation loss was used as the monitoring metric.
 
 We are then able to visualise the training and validation metrics using TensorBoard.
-![TensorBoard](static/tensorboard.png)
+
+![TensorBoard](static/tensorboard_latest.png)
 
 With validation loss of 0.20 and validation accuracy of 0.94, the model at Epoch 5 was determined to be the best performing model.
 
